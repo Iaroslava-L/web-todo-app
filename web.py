@@ -9,8 +9,8 @@ def add_todo():
     functions.write_todos(todos)
     st.session_state["new_todo"] = ""
 
-st.title("Shopping list")
-st.subheader("This is a simple shopping list you can use with someone else.")
+st.title("iara minimalistic app")
+st.subheader("This is a simple app you can use as to-do or shopping list.")
 st.write("This app was created to be useful :)")
 
 for index, todo in enumerate(todos):
